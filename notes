@@ -1,0 +1,16 @@
+488799459608-ds239cl1nnd70i756q4q66mm29c43lug.apps.googleusercontent.com
+
+
+// Sample js code for search.list
+
+// See full sample for buildApiRequest() code, which is not 
+// specific to a particular youtube or youtube method.
+
+buildApiRequest('GET',
+                '/youtube/v3/search',
+                {'maxResults': '25',
+                 'part': 'snippet',
+                 'q': 'surfing',
+                 'type': ''});
+                 
+                 

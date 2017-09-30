@@ -1,0 +1,11 @@
+#list li{
+  list-style-type: none;
+}
+
+#titles li{
+  list-style-type: none;
+}
+
+#top{
+  margin-top: 20px;
+}

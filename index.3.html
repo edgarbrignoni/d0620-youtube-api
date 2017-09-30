@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Mi Chaufita es de aqui!</h1>
+
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+function initMap() {
+    var myLatLng = {lat: -12.1402473, lng: -76.9900237};
+    
+    var map = new google.maps.Map(document.getElementById("map"), {
+    	center: myLatLng,
+      zoom: 13,
+      // 	disableDefaultUI: true
+  	});
+  	
+    var marker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      title: 'Hello World!'
+    });
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBb5rYEodXL5d3dNokEcE8tR0N6MBaPNSA&callback=initMap"></script>
+
+</body>
+</html>
